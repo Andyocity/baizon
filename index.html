@@ -103,6 +103,17 @@
   $(document).on("click","a[name='net']", function (e) {
     alert("My God.");
   });
+
+  //Animate Scroll In
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if ($(this).scrollTop() > 500) {
+        $('.topScroll').fadeIn();
+      } else {
+        $('.topScroll').fadeOut();
+      }
+    });
+  });
   </script>
 </body>
 </html>
