@@ -11,6 +11,8 @@
 body{
   /* Additional Styling */
   background-color: #FFFFFF;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   /* Text */
   font-family:'Roboto',sans-serif;
@@ -35,14 +37,14 @@ a{
   z-index:  1;
 
   /* Additional Styling */
-  background-color: #FFFFFF;
-  border-bottom: 1px;
-  border-style: solid;
-  border-color: #EEEEEE;
+  border-bottom:       1px;
+  border-bottom-style: solid;
+  border-bottom-color: #EEEEEE;
+  background-color:    #FFFFFF;
 
   /* Text */
   text-align: center;
-  color:       #000000;
+  color:      #000000;
 }
 
 .mainTitle{
@@ -75,8 +77,8 @@ a{
   z-index:  0;
 
   /* Additional Styling */
-  background-color:   #FFFFFF;
-  box-shadow:         0 0 10px #999999;
+  background-color: #FFFFFF;
+  box-shadow:       0 0 10px #999999;
 
   /* Text */
   text-align: center;
@@ -103,12 +105,29 @@ a{
 
 .mainContent{
   /* Proportions */
-  height: auto;
+  height: 1500px;
   width:  100%;
 
   /* Position */
   position: absolute;
-  top:      160px;
+  top:      140px;
+  left:     0px;
+
+  /* Additional Styling */
+  padding-top: 50px;
+
+  /* Text */
+  text-align: center;
+}
+
+.about{
+  /* Proportions */
+  height:   500px;
+  width:    100%;
+
+  /* Position */
+  position: absolute;
+  top:      140px;
   left:     0px;
 
   /* Additional Styling */
@@ -116,14 +135,68 @@ a{
   /* Text */
 }
 
-.about{
-
-}
-
 .projects{
+  /* Proportions */
+  height:   500px;
+  width:    100%;
 
+  /* Position */
+  position: absolute;
+  top:      640px;
+  left:     0px;
+
+  /* Additional Styling */
+
+  /* Text */
 }
 
 .education{
+  /* Proportions */
+  height:   500px;
+  width:    100%;
 
+  /* Position */
+  position: absolute;
+  top:      1140px;
+  left:     0px;
+
+  /* Additional Styling */
+
+  /* Text */
+}
+
+.contact{
+  /* Proportions */
+  height:   500px;
+  width:    100%;
+
+  /* Position */
+  position: absolute;
+  top:      1640px;
+  left:     0px;
+
+  /* Additional Styling */
+
+  /* Text */
+}
+
+.footer{
+  /* Proportions */
+  height:   100px;
+  width:    100%;
+
+  /* Position */
+  position: absolute;
+  top:      2140px;
+  left:     0px;
+
+  /* Additional Styling */
+  border-top:       1px;
+  border-top-style: solid;
+  border-top-color: #EEEEEE;
+  background-color: #FFFFFF;
+
+  /* Text */
+  text-align: center;
+  color:      #999999;
 }
