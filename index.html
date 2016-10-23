@@ -57,6 +57,12 @@
     <div class="net"><a href="javascript:void(0)" name="net">&pi;</a></div>
   </div>
 
+  <div class="topScroll">
+    <a href="javascript:void(0)" name="top">
+      <img src="Resources\arrow-up.png" height="50px">
+    <a>
+  </div>
+
   <script type="text/javascript">
   // Scroll to About
   $(document).on("click","a[name='about']", function (e) {
@@ -90,7 +96,7 @@
   $(document).on("click","a[name='top']", function (e) {
       $('html, body').animate({
         scrollTop: ($('.siteBanner').first().offset().top)
-      },500);
+      },700);
   });
 
   //Net

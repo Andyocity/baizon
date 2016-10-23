@@ -210,11 +210,13 @@ a{
   text-align:  center;
   color:       #999999;
 }
+
 .footerText{
   /* Text */
   line-height: 140px;
   color:       #999999;
 }
+
 .net{
   /* Position */
   position: absolute;
@@ -223,4 +225,18 @@ a{
 
   /* Text */
   font-size: 20px;
+}
+
+.topScroll{
+  /* Proportions */
+  height: 50px;
+  width:  50px;
+
+  /* Position */
+  position: fixed;
+  bottom:   50px;
+  left:     50px;
+
+  /* Additional Styling */
+  display: none;
 }

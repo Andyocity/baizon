@@ -22,7 +22,7 @@ a{
 
 .siteBanner{
   /* Proportions */
-  height: 400px;
+  height: 200px;
   width:  100%;
 
   /* Position */
@@ -67,7 +67,7 @@ a{
 
   /* Position */
   position: absolute;
-  top:      400px;
+  top:      200px;
   left:     0px;
   z-index:  0;
 
