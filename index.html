@@ -17,6 +17,9 @@
   <link rel="stylesheet" type="text/css" href="MainStyle.css">
   <link rel="stylesheet" media="screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)" type="text/css" href="iPhone6.css">
 
+  <!--Script-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -25,10 +28,10 @@
   </div>
 
   <div class="underBanner">
-    <div class="underBannerItem"><a href="">About</a></div>
-    <div class="underBannerItem"><a href="">Projects</a></div>
-    <div class="underBannerItem"><a href="">Education</a></div>
-    <div class="underBannerItem"><a href="">Contact</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name="about">About</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name="projects">Projects</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name="education">Education</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name="contact">Contact</a></div>
   </div>
 
   <div class="mainContent">
@@ -53,5 +56,41 @@
     (C) Andy Baizon 2016
   </div>
 
+  <script type="text/javascript">
+  // Scroll to About
+  $(document).on("click","a[name='about']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.about').first().offset().top)
+      },500);
+  });
+
+  // Scroll to Projects
+  $(document).on("click","a[name='projects']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.projects').first().offset().top)
+      },500);
+  });
+
+  // Scroll to Education
+  $(document).on("click","a[name='education']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.education').first().offset().top)
+      },500);
+  });
+
+  // Scroll to Contact
+  $(document).on("click","a[name='contact']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.contact').first().offset().top)
+      },500);
+  });
+
+  //Scroll to Top
+  $(document).on("click","a[name='top']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.siteBanner').first().offset().top)
+      },500);
+  });
+  </script>
 </body>
 </html>
