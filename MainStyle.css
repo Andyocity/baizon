@@ -23,36 +23,6 @@ a{
   color:           inherit;
 }
 
-a.bannerItemLeft{
-  text-decoration: none;
-}
-
-a.bannerItemLeft:hover{
-  text-decoration: none;
-  color: inherit;
-}
-
-a.bannerItemLeft:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-a.bannerItemLeft:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
 .siteBanner{
   /* Proportions */
   height: 100px;
@@ -62,12 +32,13 @@ a.bannerItemLeft:hover:before {
   position: absolute;
   top:      0px;
   left:     0px;
+  z-index:  1;
 
   /* Additional Styling */
-  background-color:   #FFFFFF;
-  -moz-box-shadow:    0 0 10px #000000;
-  -webkit-box-shadow: 0 0 10px #000000;
-  box-shadow:         0 0 10px #000000;
+  background-color: #FFFFFF;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #EEEEEE;
 
   /* Text */
   text-align: center;
@@ -92,11 +63,30 @@ a.bannerItemLeft:hover:before {
   line-height: 70px;
 }
 
-.bannerItemLeft{
+.underBanner{
+  /* Proportions */
+  height: 40px;
+  width:  100%;
+
+  /* Position */
+  position: absolute;
+  top:      100px;
+  left:     0px;
+  z-index:  0;
+
+  /* Additional Styling */
+  background-color:   #FFFFFF;
+  box-shadow:         0 0 10px #999999;
+
+  /* Text */
+  text-align: center;
+}
+
+.underBannerItem{
   /* Proportions */
 
   /* Position */
-  margin-top:   15px;
+  margin-top:   0px;
   margin-left:  50px;
   margin-right: 50px;
   display:      inline-block;
@@ -106,25 +96,10 @@ a.bannerItemLeft:hover:before {
   /* Text */
   font-family: 'Roboto',sans-serif;
   font-weight: 300;
-  font-size:   20px;
+  font-size:   17px;
+  line-height: 40px;
 }
 
-.bannerItemRight{
-  /* Proportions */
-
-  /* Position */
-  margin-top:   15px;
-  margin-left:  50px;
-  margin-right: 50px;
-  display:      inline-block;
-
-  /* Additional Styling */
-
-  /* Text */
-  font-family: 'Roboto',sans-serif;
-  font-weight: 300;
-  font-size:   20px;
-}
 
 .mainContent{
   /* Proportions */
@@ -133,7 +108,7 @@ a.bannerItemLeft:hover:before {
 
   /* Position */
   position: absolute;
-  top:      100px;
+  top:      160px;
   left:     0px;
 
   /* Additional Styling */
