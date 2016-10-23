@@ -1,14 +1,9 @@
-/* Main Stylesheet - Andy Baizon 2016 */
+/* iPhone6 Stylesheet - Andy Baizon 2016 */
 
-/* Proportions */
+body {
+  /* Proportions */
+  width: 750px;
 
-/* Position */
-
-/* Additional Styling */
-
-/* Text */
-
-body{
   /* Additional Styling */
   background-color: #FFFFFF;
   overflow-x: hidden;
