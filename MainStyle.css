@@ -1,0 +1,154 @@
+/* Main Styling */
+
+/* Proportions */
+
+/* Position */
+
+/* Additional Styling */
+
+/* Text */
+
+body{
+  /* Additional Styling */
+  background-color: #FFFFFF;
+
+  /* Text */
+  font-family:'Roboto',sans-serif;
+  font-weight: 300;
+  font-size:   20px;
+}
+
+a{
+  text-decoration: none;
+  color:           inherit;
+}
+
+a.bannerItemLeft{
+  text-decoration: none;
+}
+
+a.bannerItemLeft:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+a.bannerItemLeft:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a.bannerItemLeft:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.siteBanner{
+  /* Proportions */
+  height: 100px;
+  width:  100%;
+
+  /* Position */
+  position: absolute;
+  top:      0px;
+  left:     0px;
+
+  /* Additional Styling */
+  background-color:   #FFFFFF;
+  -moz-box-shadow:    0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow:         0 0 10px #000000;
+
+  /* Text */
+  text-align: center;
+  color:       #000000;
+}
+
+.mainTitle{
+  /* Proportions */
+
+  /* Position */
+  margin-top:   15px;
+  margin-left:  200px;
+  margin-right: 200px;
+  display:      inline-block;
+
+  /* Additional Styling */
+
+  /* Text */
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size:   50px;
+  line-height: 70px;
+}
+
+.bannerItemLeft{
+  /* Proportions */
+
+  /* Position */
+  margin-top:   15px;
+  margin-left:  50px;
+  margin-right: 50px;
+  display:      inline-block;
+
+  /* Additional Styling */
+
+  /* Text */
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-size:   20px;
+}
+
+.bannerItemRight{
+  /* Proportions */
+
+  /* Position */
+  margin-top:   15px;
+  margin-left:  50px;
+  margin-right: 50px;
+  display:      inline-block;
+
+  /* Additional Styling */
+
+  /* Text */
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-size:   20px;
+}
+
+.mainContent{
+  /* Proportions */
+  height: auto;
+  width:  100%;
+
+  /* Position */
+  position: absolute;
+  top:      100px;
+  left:     0px;
+
+  /* Additional Styling */
+
+  /* Text */
+}
+
+.about{
+
+}
+
+.projects{
+
+}
+
+.education{
+
+}
