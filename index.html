@@ -53,7 +53,8 @@
   </div>
 
   <div class="footer">
-    (C) Andy Baizon 2016
+    <div class="footerText">&copy; Andy Baizon 2016</div>
+    <div class="net"><a href="javascript:void(0)" name="net">&pi;</a></div>
   </div>
 
   <script type="text/javascript">
@@ -90,6 +91,11 @@
       $('html, body').animate({
         scrollTop: ($('.siteBanner').first().offset().top)
       },500);
+  });
+
+  //Net
+  $(document).on("click","a[name='net']", function (e) {
+    alert("My God.");
   });
   </script>
 </body>
