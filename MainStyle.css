@@ -1,13 +1,5 @@
 /* Main Stylesheet - Andy Baizon 2016 */
 
-/* Proportions */
-
-/* Position */
-
-/* Additional Styling */
-
-/* Text */
-
 body{
   /*Proportions */
   height: 2240px;
@@ -35,6 +27,24 @@ a{
   color:           inherit;
 }
 
+/* SCROLL BARS */
+
+body::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar{
+  width: 9px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb{
+	background-color: #888888;
+}
+
+
+/* MAIN SITE CONTENT BELOW */
 .siteBanner{
   /* Proportions */
   height: 100px;
@@ -160,6 +170,8 @@ a{
   /* Text */
 }
 
+/* EDUCATION SECTION */
+
 .education{
   /* Proportions */
   height:   500px;
@@ -175,6 +187,10 @@ a{
   /* Text */
 }
 
+
+
+
+/* CONTACT SECTION*/
 .contact{
   /* Proportions */
   height:   500px;
