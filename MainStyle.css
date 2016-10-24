@@ -139,7 +139,17 @@ body::-webkit-scrollbar-thumb{
   text-align: center;
 }
 
+.sectionTitle{
+  /* Text */
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size:   30px;
+  line-height: 70px;
+}
+
+
 /* ABOUT SECTION*/
+
 .about{
   /* Proportions */
   height:   500px;
@@ -174,7 +184,7 @@ body::-webkit-scrollbar-thumb{
 
 .education{
   /* Proportions */
-  height:   500px;
+  height:   1000px;
   width:    100%;
 
   /* Position */
@@ -183,11 +193,29 @@ body::-webkit-scrollbar-thumb{
   left:     0px;
 
   /* Additional Styling */
-
   /* Text */
 }
 
+.educationItem{
+  /* Proportions */
+  height:200px;
+  width: 750px;
 
+  /* Position */
+  margin-top:    20px;
+  margin-left:   auto;
+  margin-bottom: 20px;
+  margin-right:  auto;
+
+  /* Additional Styling */
+  border-top:          1px;
+  border-top-style:    solid;
+  border-bottom:       1px;
+  border-bottom-style: solid;
+  border-color:        #eee;
+  display:             block;
+  /* Text */
+}
 
 
 /* CONTACT SECTION*/
@@ -198,7 +226,7 @@ body::-webkit-scrollbar-thumb{
 
   /* Position */
   position: absolute;
-  top:      1640px;
+  top:      2140px;
   left:     0px;
 
   /* Additional Styling */
@@ -213,7 +241,7 @@ body::-webkit-scrollbar-thumb{
 
   /* Position */
   position: absolute;
-  top:      2140px;
+  top:      2640px;
   left:     0px;
 
   /* Additional Styling */
