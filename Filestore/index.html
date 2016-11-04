@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en-GB">
+<head>
+
+  <!--Title-->
+  <title>Andy Baizon</title>
+
+  <!--Meta/SEO-->
+  <link rel="canonical" href="https://baizon.uk">
+  <meta name="author" content="Andy Baizon">
+  <meta name="keywords" content="baizon,Andy Baizon,portfolio,baizon uk">
+  <meta name="description" content="Portfolio Site for one Andy Baizon">
+
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="MainStyle.css">
+  <link rel="stylesheet" media="screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)" type="text/css" href="iPhone6.css">
+
+  <!--Script-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+  <div class="siteBanner">
+    <div class="mainTitle">BAIZON</div>
+  </div>
+
+  <div class="underBanner">
+    <div class="underBannerItem"><a href="javascript:void(0)" name="destiny">Destiny</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name=""></a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name=""></a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name=""></a></div>
+  </div>
+
+  <div class="mainContent">
+    <img src="Images\Almora.png">
+    <img src="Images\ChannelArtBlue.png">
+    <img src="Images\inb4twitterheader.png">
+
+  </div>
+
+  <div class="footer">
+    <div class="footerText">&copy; Andy Baizon 2016</div>
+    <div class="net"><a href="javascript:void(0)" name="net">&pi;</a></div>
+  </div>
+
+  <div class="topScroll">
+    <a href="javascript:void(0)" name="top">
+      <img src="Resources\arrow-up.png" height="50px">
+    <a>
+  </div>
+
+  <script type="text/javascript">
+  // Scroll to About
+  $(document).on("click","a[name='about']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.about').first().offset().top)
+      },700);
+  });
+
+  // Scroll to Projects
+  $(document).on("click","a[name='projects']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.projects').first().offset().top)
+      },700);
+  });
+
+  // Scroll to Education
+  $(document).on("click","a[name='education']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.education').first().offset().top)
+      },700);
+  });
+
+  // Scroll to Contact
+  $(document).on("click","a[name='contact']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.contact').first().offset().top)
+      },700);
+  });
+
+  //Scroll to Top
+  $(document).on("click","a[name='top']", function (e) {
+      $('html, body').animate({
+        scrollTop: ($('.siteBanner').first().offset().top)
+      },700);
+  });
+
+  //Net
+  $(document).on("click","a[name='net']", function (e) {
+    alert("My God. #TheNet");
+  });
+
+  //Animate Scroll In
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if ($(this).scrollTop() > 500) {
+        $('.topScroll').fadeIn();
+      } else {
+        $('.topScroll').fadeOut();
+      }
+    });
+  });
+
+  //Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57626820-3', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
+</html>
