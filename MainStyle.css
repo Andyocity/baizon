@@ -2,7 +2,6 @@
 body{
   /*Proportions */
   height: 100%;
-  border: 1px solid red;
 
   /* Position */
   margin:0;
@@ -13,7 +12,6 @@ body{
   overflow-y:       auto;
   padding-top:      0px;
   padding: 0;
-	padding-bottom: 20px;
 
   /* Text */
   font-family:'Roboto',sans-serif;
@@ -257,6 +255,7 @@ TENT CONTAINER */
   /* Text */
   text-align:  center;
   color:       #999999;
+	overflow:hidden;
 }
 
 .footerText{
@@ -282,6 +281,15 @@ TENT CONTAINER */
   top: 140px;
   left:0px;
   background-color: #1da1f2;
+}
+
+.gitBanner{
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  top: 140px;
+  left:0px;
+  background-color: #333333;
 }
 /*End Footer*/
 
