@@ -270,11 +270,19 @@ TENT CONTAINER */
   /* Position */
   position: absolute;
   right:    5px;
-  bottom:   0px;
+  bottom:   50px;
 
   /* Text */
   font-size: 20px;
 }
+
+.twitterBanner{
+  height: 40px;
+	width:100%;
+	background-color: #1da1f2;
+}
+/*End Footer*/
+
 
 .topScroll{
   /* Proportions */
