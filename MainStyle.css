@@ -278,8 +278,8 @@ TENT CONTAINER */
   height: 40px;
   width: 100%;
   position: absolute;
+  top: 2740px;
   left:0px;
-  bottom:-8px;
   background-color: #1da1f2;
 }
 /*End Footer*/
