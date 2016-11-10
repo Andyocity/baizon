@@ -1,17 +1,8 @@
 /* Main Stylesheet - Andy Baizon 2016 */
-*{
-	margin:0;
-	padding:0;
-}
-
-html{
-  height:100%;
-}
-
 body{
   /*Proportions */
-  min-height: 100%;
-  border: 1px solid transparent;
+  height: 100%;
+  border: 1px solid red;
 
   /* Position */
   margin:0;
