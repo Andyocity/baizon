@@ -1,23 +1,18 @@
 /* Main Stylesheet - Andy Baizon 2016 */
 
-body{
+body, html{
   /*Proportions */
   height: 100%;
 
   /* Position */
-  margin-top:    0px;
-  margin-left:   0px;
-  margin-bottom: 0px;
-  margin-right:  0px;
+  margin:0;
 	
   /* Additional Styling */
   background-color: pink;
   overflow-x:       hidden;
   overflow-y:       auto;
   padding-top:      0px;
-  padding-left:     0px;
-  padding-bottom:   0px;
-  padding-right:    0px;
+  padding: 0;
 
   /* Text */
   font-family:'Roboto',sans-serif;
