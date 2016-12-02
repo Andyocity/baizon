@@ -161,7 +161,7 @@ body::-webkit-scrollbar-thumb{
   top:      140px;
   left:     0px;
   /* Additional Styling */
-
+  background-color: pink;
   /* Text */
 }
 
@@ -222,20 +222,23 @@ body::-webkit-scrollbar-thumb{
 .projects{
   /* Proportions */
   height:   570px;
-  width:    100%;
+  width:    1200px;
 
   /* Position */
-  position: absolute;
-  top:      680px;
-  left:     0px;
+  position: relative;
+  margin-top: 650px;
+  margin-left: auto;
+  margin-right: auto;
 
   /* Additional Styling */
+  padding-top: 1px;
   /* Text */
 }
 
+
 .projectsTitle{
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 50px;
 
     /* Text */
@@ -296,7 +299,7 @@ body::-webkit-scrollbar-thumb{
     display: inline-block;
     line-height: 25px;
     font-family: 'Assistant', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 22px;
 }
 
