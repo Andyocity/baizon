@@ -174,10 +174,55 @@ body::-webkit-scrollbar-thumb{
   position: absolute;
   top:      140px;
   left:     0px;
-
   /* Additional Styling */
 
   /* Text */
+}
+
+.aboutInner{
+    position:relative;
+    height: 150px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innerFlair{
+    position: absolute;
+    bottom:40px;
+    right:75px;
+    height: 1px;
+    width: 150px;
+    background-color:#448AFF;
+}
+
+.featureImage{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #448AFF;
+    background-image: url('Resources/Profile.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+.aboutTitle{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-left: 0px;
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    line-height: 50px;
+    /* Text */
+    font-family: 'Fashion Fetish', serif;
+    font-weight: 300;
+    font-size:   30px;
+    line-height: 150px;
 }
 
 .projects{
