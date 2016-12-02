@@ -122,7 +122,7 @@ body::-webkit-scrollbar-thumb{
   /* Additional Styling */
   transition: all .5s ease-in-out;
   /* Text */
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Fashion Fetish', serif;
   font-weight: 300;
   font-size:   17px;
   line-height: 40px;
@@ -153,7 +153,7 @@ TENT CONTAINER */
 
 .sectionTitle{
   /* Text */
-  font-family: 'Merriweather', serif;
+  font-family: 'Fashion Fetish', serif;
   font-weight: 300;
   font-size:   30px;
   line-height: 70px;
@@ -270,6 +270,7 @@ TENT CONTAINER */
 
 .footerText{
   /* Text */
+  font-family: 'Fashion Fetish', serif;
   line-height: 140px;
   color:       #999999;
 }
