@@ -8,10 +8,11 @@
   <!--Meta/SEO-->
   <link rel="canonical" href="https://baizon.uk">
   <meta name="author" content="Andy Baizon">
-  <meta name="keywords" content="baizon,Andy Baizon,portfolio,baizon uk">
+  <meta name="keywords" content="baizon, Andy Baizon, portfolio, baizon uk">
   <meta name="description" content="Portfolio Site for one Andy Baizon">
 
   <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="fonts.css">
   <link rel="stylesheet" type="text/css" href="Night.css">
   <link rel="stylesheet" media="screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)" type="text/css" href="iPhone6.css">
 
@@ -47,10 +48,10 @@
       <div class="projectsTitle">Projects</div>
       <!--Item One-->
       <div class="projectItem">
-        <div class="projectItemTitle">LiveLeague</div>
-        <div class="projectItemImage"><p>Screencap here</p></div>
-        <div class="projectItemBrief"><p>LiveLeague is an eSports tournament platform, devised and produced as a group project, for my degree. <br><br> Featured @ <a href="http://comx.glos.ac.uk/17/">COMX17!</a></p></div>
-        <div class="projectItemLink"><a href="https://liveleague.glos.ac.uk">LiveLeague</a></div>
+        <div class="projectItemTitle">LIVELEAGUE</div>
+        <div class="projectFlair"></div>
+        <div class="projectItemImage"></div>
+        <div class="projectItemBrief"><p>LiveLeague is an eSports tournament platform, devised and produced as part a group project, for my degree. <br><br> Featured @ <a href="http://comx.glos.ac.uk/17/">COMX17!</a></p><br><br><div class="projectItemLink"><a href="https://liveleague.glos.ac.uk">Liveleague.glos.ac.uk</a></div></div>
       </div>
     </div>
 
@@ -72,7 +73,7 @@
 
   <div class="footer">
     <div class="footerText">&copy; Andy Baizon 2016</div>
-    <div class="net"><a href="javascript:void(0)" name="net">&pi;</a></div>
+    <div class="net"><a onClick="net()" name="net">&pi;</a></div>
     <div class="twitterBanner"><img src="Resources\Twitter.png" height="40px"></div>
     <div class="gitBanner"><img src="Resources\Git.png" height="30px" align="middle"></div>
   </div>
@@ -120,9 +121,8 @@
   });
 
   //Net
-  $(document).on("click","a[name='net']", function (e) {
-    alert("My God. #TheNet");
-  });
+  function Net(){alert("My God. #TheNet");};
+
 
   //Animate Scroll In
   $(document).ready(function(){

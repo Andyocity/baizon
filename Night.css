@@ -1,18 +1,5 @@
 /* Night Stylesheet - Andy Baizon 2016 */
 
-
-/*Fonts*/
-@font-face {
-    font-family: 'Fashion Fetish';
-    src: url('Resources/Fashion Fetish Light.ttf');
-}
-
-@font-face {
-    font-family: 'Fashion Fetish SmallCaps';
-    src: url('Resources/Fashion Fetish Small Caps.ttf');
-}
-
-
 body{
   /*Proportions */
   height: 100%;
@@ -164,7 +151,6 @@ body::-webkit-scrollbar-thumb{
 
 
 /* ABOUT SECTION*/
-
 .about{
   /* Proportions */
   height:   500px;
@@ -225,25 +211,32 @@ body::-webkit-scrollbar-thumb{
     line-height: 150px;
 }
 
+.aboutText{
+    width: 80%;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
 .projects{
   /* Proportions */
-  height:   500px;
+  height:   570px;
   width:    100%;
 
   /* Position */
   position: absolute;
-  top:      640px;
+  top:      680px;
   left:     0px;
 
   /* Additional Styling */
-
   /* Text */
 }
 
 .projectsTitle{
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 50px;
+    left: 50px;
 
     /* Text */
     font-family: 'Fashion Fetish', serif;
@@ -251,6 +244,59 @@ body::-webkit-scrollbar-thumb{
     font-size:   30px;
     line-height: 70px;
 }
+
+
+.projectItem{
+    position: relative;
+    margin-top: 130px;
+    height: 400px;
+    width: 800px;
+    background-color: #444;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px #222;
+}
+
+.projectItemTitle{
+    padding-top: 20px;
+    font-family: 'Fashion Fetish', serif;
+    font-size: 25px;
+}
+
+.projectFlair{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height:1px;
+    width:100px;
+    background-color: #448AFF;
+}
+
+.projectItemImage{
+    position: absolute;
+    bottom:20px;
+    left:20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 2px;
+    background-color: #448AFF;
+    background-image: url();
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+.projectItemBrief{
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    width: 440px;
+    height: 300px;
+    display: inline-block;
+    line-height: 25px;
+}
+
 
 /* EDUCATION SECTION */
 
@@ -321,7 +367,7 @@ body::-webkit-scrollbar-thumb{
 
 .footer{
   /* Proportions */
-  height:   220px;
+  height:   180px;
   width:    100%;
 
   /* Position */
@@ -352,8 +398,8 @@ body::-webkit-scrollbar-thumb{
   /* Position */
   position: absolute;
   right:    5px;
-  bottom:   100px;
-  color: #444;
+  bottom:   50px;
+  color: #448AFF;
   /* Text */
   font-size: 20px;
 }
@@ -374,6 +420,7 @@ body::-webkit-scrollbar-thumb{
   top: 180px;
   left:0px;
   background-color: #333333;
+  display: none;
 }
 /*End Footer*/
 
