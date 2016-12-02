@@ -11,12 +11,8 @@
   <meta name="keywords" content="baizon,Andy Baizon,portfolio,baizon uk">
   <meta name="description" content="Portfolio Site for one Andy Baizon">
 
-  <!--Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-
   <!--CSS-->
-  <link rel="stylesheet" type="text/css" href="MainStyle.css">
+  <link rel="stylesheet" type="text/css" href="Night.css">
   <link rel="stylesheet" media="screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)" type="text/css" href="iPhone6.css">
 
   <!--Script-->
@@ -31,19 +27,16 @@
   </div>
 
   <div class="underBanner">
-    <div class="underBannerItem"><a href="javascript:void(0)" name="about">About</a></div>
-    <div class="underBannerItem"><a href="javascript:void(0)" name="projects">Projects</a></div>
-    <div class="underBannerItem"><a href="javascript:void(0)" name="education">Education</a></div>
-    <div class="underBannerItem"><a href="javascript:void(0)" name="contact">Contact</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name="about">about</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name="projects">projects</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name="education">education</a></div>
+    <div class="underBannerItem"><a href="javascript:void(0)" name="contact">contact</a></div>
   </div>
 
   <div class="mainContent">
     <div class="about">
-      <div class="sectionTitle">About</div>
-      Hi!
-
-      You've stumbled upon (either by accident or design...) my website!
-      It's a bit of a work in progress right now, so check back later!
+      <div class="sectionTitle">Hi, I'm Andy.</div>
+      <p></p>
     </div>
 
     <div class="projects">
@@ -51,8 +44,8 @@
       <!--Item One-->
       <div class="projectItem">
         <div class="projectItemTitle">LiveLeague</div>
-        <div class="projectItemImage"></div>
-        <div class="projectItemBrief">LiveLeague is an eSports tournament platform, devised and produced as a group project, for my degree. Featured @ <a href="http://comx.glos.ac.uk/17/">COMX17!</a></div>
+        <div class="projectItemImage"><p>Screencap here</p></div>
+        <div class="projectItemBrief"><p>LiveLeague is an eSports tournament platform, devised and produced as a group project, for my degree. <br><br> Featured @ <a href="http://comx.glos.ac.uk/17/">COMX17!</a></p></div>
         <div class="projectItemLink"><a href="https://liveleague.glos.ac.uk">LiveLeague</a></div>
       </div>
     </div>
@@ -61,11 +54,11 @@
       <div class="sectionTitle">Education</div>
       <!--Item One-->
       <div class="educationItem">
-        <div class="educationItemTitle">University of Gloucestershire</div>
+        <div class="educationItemTitle"><p>University of Gloucestershire</p></div>
         <div class="educationImage"><img src="Resources\UOGLogo.png"></div>
-        <div class="educationItemLocale">Cheltenham</div>
-        <div class="educationItemDates">2013-2017</div>
-        <div class="educationLevel">Information Technology .BSC(Hons)</div>
+        <div class="educationItemLocale"><p>Cheltenham</p></div>
+        <div class="educationItemDates"><p>2013-2017</p></div>
+        <div class="educationLevel"><p>Information Technology .BSC(Hons)</p></div>
       </div>
   </div>
 
@@ -136,6 +129,12 @@
         $('.topScroll').fadeOut();
       }
     });
+  });
+
+
+  //Animate About In
+  $(document).ready(function(){
+    $('.about').fadeIn('slow');
   });
   </script>
 </body>
