@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb{
   /* Additional Styling */
   border-bottom:       1px;
   border-bottom-style: solid;
-  border-bottom-color: #448AFF;
+  border-bottom-color: rgba(68, 138, 255, 1)/*#448AFF*/;
   background-color:    #333;
 
   /* Text */
@@ -121,8 +121,8 @@ body::-webkit-scrollbar-thumb{
 
 .underBannerItem:hover{
   transform: scale(1.3);
-
 }
+
 /* CONTENT CONTAINER */
 .mainContent{
   /* Proportions */
@@ -295,6 +295,9 @@ body::-webkit-scrollbar-thumb{
     height: 300px;
     display: inline-block;
     line-height: 25px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
 }
 
 
@@ -378,7 +381,7 @@ body::-webkit-scrollbar-thumb{
   /* Additional Styling */
   border-top:       1px;
   border-top-style: solid;
-  border-top-color: #448AFF;
+  border-top-color: rgba(68, 138, 255, 1);
   background-color: #333;
 
   /* Text */
