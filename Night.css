@@ -238,7 +238,18 @@ body::-webkit-scrollbar-thumb{
   /* Additional Styling */
 
   /* Text */
-   display: none;
+}
+
+.projectsTitle{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    /* Text */
+    font-family: 'Fashion Fetish', serif;
+    font-weight: 300;
+    font-size:   30px;
+    line-height: 70px;
 }
 
 /* EDUCATION SECTION */
@@ -279,6 +290,17 @@ body::-webkit-scrollbar-thumb{
   /* Text */
 }
 
+.educationTitle{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    /* Text */
+    font-family: 'Fashion Fetish', serif;
+    font-weight: 300;
+    font-size:   30px;
+    line-height: 70px;
+}
 
 /* CONTACT SECTION*/
 .contact{
