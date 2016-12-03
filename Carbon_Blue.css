@@ -1,4 +1,4 @@
-/* Night Stylesheet - Andy Baizon 2016 */
+/* Carbon Blue Stylesheet - Andy Baizon 2016 */
 
 body{
   /*Proportions */
@@ -8,7 +8,7 @@ body{
   margin:0;
 
   /* Additional Styling */
-  background-color: #333;
+  background-color: #222;
   overflow-x:       hidden;
   overflow-y:       auto;
   padding-top:      0px;
@@ -26,22 +26,6 @@ a{
   color:           inherit;
 }
 
-/* SCROLL BARS */
-body::-webkit-scrollbar-track{
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #444;
-}
-
-body::-webkit-scrollbar{
-  width: 9px;
-	background-color: #444;
-}
-
-body::-webkit-scrollbar-thumb{
-	background-color: #222;
-}
-
-
 /* MAIN SITE CONTENT BELOW */
 .siteBanner{
   /* Proportions */
@@ -58,7 +42,7 @@ body::-webkit-scrollbar-thumb{
   border-bottom:       1px;
   border-bottom-style: solid;
   border-bottom-color: rgba(68, 138, 255, 1)/*#448AFF*/;
-  background-color:    #333;
+  background-color:    #222;
 
   /* Text */
   text-align: center;
@@ -94,7 +78,7 @@ body::-webkit-scrollbar-thumb{
   z-index:  0;
 
   /* Additional Styling */
-  background-color: #333;
+  background-color: #222;
   box-shadow:       0 0 10px #000;
 
   /* Text */
@@ -241,7 +225,7 @@ body::-webkit-scrollbar-thumb{
 .projectsTitle{
     position: absolute;
     top: 30px;
-    left: 50px;
+    left: 90px;
 
     /* Text */
     font-family: 'Fashion Fetish', serif;
@@ -256,11 +240,11 @@ body::-webkit-scrollbar-thumb{
     margin-top: 140px;
     height: 400px;
     width: 800px;
-    background-color: #444;
+    background-color: #333;
     border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 10px #222;
+    box-shadow: 0 0 10px #111;
 }
 
 .projectItemAlt{
@@ -268,11 +252,11 @@ body::-webkit-scrollbar-thumb{
     margin-top: 70px;
     height: 400px;
     width: 800px;
-    background-color: #444;
+    background-color: #333;
     border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 10px #222;
+    box-shadow: 0 0 10px #111;
 }
 
 
@@ -385,12 +369,22 @@ body::-webkit-scrollbar-thumb{
   /* Text */
 }
 
+.sectionTitleFlair{
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    width: 100px;
+    background-color:#448AFF;
+}
+
 .buttonArea{
-    height: 40px;
-    width: 70px;
+    margin-top: 20px;
+    height: 50px;
+    width: 85px;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .contactButton{
@@ -398,15 +392,52 @@ body::-webkit-scrollbar-thumb{
     width: 100%;
     background-color: #222;
     border: 1px solid #448AFF;
-    border-radius: 4px;
-    line-height: 40px;
-    box-shadow: 0 0 10px #222;
+    border-radius: 3px;
+    line-height: 55px;
+    box-shadow: 0 0 10px #111;
 }
 
+.contactButton:hover{
+    box-shadow: 0 0 20px #000;
+}
+
+.contactButtonA{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    border: 1px solid #448AFF;
+    border-radius: 3px;
+    line-height: 55px;
+    box-shadow: 0 0 10px #111;
+    background-image: url('Resources/Twitter Buttons/TR_Button_Blue.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.contactButtonA:hover{
+    box-shadow: 0 0 20px #000;
+}
+
+.contactButtonB{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    border: 1px solid #448AFF;
+    border-radius: 3px;
+    line-height: 55px;
+    box-shadow: 0 0 10px #111;
+    background-image: url('Resources/Instagram Buttons/IG_Button_Blue.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.contactButtonB:hover{
+    box-shadow: 0 0 20px #000;
+}
 
 .footer{
   /* Proportions */
-  height:   180px;
+  height:   140px;
   width:    100%;
 
   /* Position */
@@ -418,27 +449,27 @@ body::-webkit-scrollbar-thumb{
   border-top:       1px;
   border-top-style: solid;
   border-top-color: rgba(68, 138, 255, 1);
-  background-color: #333;
+  background-color: #222;
 
   /* Text */
   text-align:  center;
   color:       #555;
-	overflow:hidden;
+  overflow:    hidden;
 }
 
 .footerText{
   /* Text */
   font-family: 'Fashion Fetish', serif;
   line-height: 140px;
-  color:       #555;
+  color:       #444;
 }
 
 .net{
   /* Position */
   position: absolute;
   right:    5px;
-  bottom:   50px;
-  color: #448AFF;
+  bottom:   10px;
+  color: #444;
   /* Text */
   font-size: 20px;
 }
@@ -450,6 +481,7 @@ body::-webkit-scrollbar-thumb{
   top: 140px;
   left:0px;
   background-color: #1da1f2;
+  display: none;
 }
 
 .gitBanner{
@@ -472,7 +504,8 @@ body::-webkit-scrollbar-thumb{
   /* Position */
   position: fixed;
   bottom:   50px;
-  left:     50px;
+  left:     30px;
+  opacity: 0.8;
 
   /* Additional Styling */
   display: none;
