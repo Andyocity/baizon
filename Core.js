@@ -1,5 +1,25 @@
 //Core.js
 
+//Theme Switcher
+$(document).ready(function(){
+
+  $('#Red').click(function (){
+     $('link[href="Carbon_Blue.css"]').attr('href','Carbon_Red.css');
+     document.cookie = "theme=Carbon_Red";
+     setCookie(Red);
+  });
+
+  $('#Blue').click(function (){
+     $('link[href="Carbon_Red.css"]').attr('href','Carbon_Blue.css');
+     setCookie(blue);
+  });
+
+});
+
+
+
+
+
 // Scroll to About
 $(document).on("click","a[name='about']", function (e) {
     $('html, body').animate({

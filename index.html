@@ -23,6 +23,8 @@
   <!--Script-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="Core.js"></script>
+  <script src="biscuits.js"></script>
+
 
   <!--Favicon-->
   <link rel="shortcut icon" href="Resources/AB.png">
@@ -40,6 +42,9 @@
     <div class="underBannerItem"><a href="javascript:void(0)" name="projects">-</a></div>
     <div class="underBannerItem"><a href="javascript:void(0)" name="education">-</a></div>
     <div class="underBannerItem"><a href="javascript:void(0)" name="contact">-</a></div>
+    <button id="Red">Red Theme</button>
+    <button id="Blue">Blue Theme</button>
+    <button onclick="showCookies()">Cookie Display</button>
   </div>
 
   <div class="mainContent">
@@ -104,6 +109,13 @@
     <a>
   </div>
 
+
+  <!--Cookies-->
+  <div class="cookies">
+    <p>This site uses cookies to store theme preferences</p>
+    <button>I Understand.</button>
+  </div>
+
   <script type="text/javascript">
   // Scroll to About
   $(document).on("click","a[name='about']", function (e) {
@@ -154,6 +166,7 @@
       }
     });
   });
+
 
 
   //Animate About In
