@@ -26,21 +26,6 @@ a{
   color:           inherit;
 }
 
-/* SCROLL BARS */
-body::-webkit-scrollbar-track{
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #444;
-}
-
-body::-webkit-scrollbar{
-  width: 9px;
-	background-color: #444;
-}
-
-body::-webkit-scrollbar-thumb{
-	background-color: #222;
-}
-
 
 /* MAIN SITE CONTENT BELOW */
 .siteBanner{
@@ -80,7 +65,33 @@ body::-webkit-scrollbar-thumb{
   font-weight: 300;
   font-size:   50px;
   line-height: 70px;
+  z-index: 999;
 }
+
+.themeSwitcher{
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+.themeButtonB{
+    height: 30px;
+    width: 130px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Fashion Fetish SmallCaps';
+    color: #111;
+    border: 1px solid #111;
+    line-height: 33px;
+    user-select: none;
+}
+
+.themeButtonR{display: none;}
 
 .underBanner{
   /* Proportions */
@@ -122,6 +133,8 @@ body::-webkit-scrollbar-thumb{
 .underBannerItem:hover{
   transform: scale(1.3);
 }
+
+#Red{display: none;}
 
 /* CONTENT CONTAINER */
 .mainContent{
