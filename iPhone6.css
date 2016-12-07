@@ -2,7 +2,7 @@
 
 body {
   /* Proportions */
-  width: 750px;
+  width: 667px;
   height: 2780px;
   /* Additional Styling */
   background-color: #222;
@@ -26,7 +26,7 @@ a{
 .siteBanner{
   /* Proportions */
   height: 200px;
-  width:  750px;
+  width:  667px;
 
   /* Position */
   position: absolute;
@@ -65,7 +65,7 @@ a{
 .underBanner{
   /* Proportions */
   height: 40px;
-  width:  750px;
+  width:  667px;
 
   /* Position */
   position: absolute;
@@ -109,7 +109,7 @@ a{
 .mainContent{
   /* Proportions */
   height: 1500px;
-  width:  750px;
+  width:  667px;
 
   /* Position */
   position: absolute;
@@ -136,7 +136,7 @@ a{
 .about{
   /* Proportions */
   height:   500px;
-  width:    750px;
+  width:    667px;
 
   /* Position */
   position: absolute;
@@ -206,7 +206,7 @@ a{
 .projects{
   /* Proportions */
   height:   570px;
-  width:    750px;
+  width:    667px;
 
   /* Position */
   position: relative;
@@ -237,7 +237,7 @@ a{
     position: relative;
     margin-top: 140px;
     height: 400px;
-    width: 750px;
+    width: 667px;
     background-color: #333;
     border-radius: 0px;
     margin-left: auto;
@@ -249,7 +249,7 @@ a{
     position: relative;
     margin-top: 40px;
     height: 400px;
-    width: 750px;
+    width: 667px;
     background-color: #333;
     border-radius: 0px;
     margin-left: auto;
@@ -321,7 +321,7 @@ a{
 .educationItem{
   /* Proportions */
   height:200px;
-  width: 750px;
+  width: 667px;
 
   /* Position */
   margin-top:    20px;
