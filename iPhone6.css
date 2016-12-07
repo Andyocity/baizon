@@ -22,6 +22,7 @@ a{
   color:           inherit;
 }
 
+.themeSwitcher{display: none;}
 .siteBanner{
   /* Proportions */
   height: 200px;
@@ -238,22 +239,22 @@ a{
     height: 400px;
     width: 750px;
     background-color: #333;
-    border-radius: 3px;
+    border-radius: 0px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 10px #111;
+    border-bottom: 1px solid #D32F2F;
 }
 
 .projectItemAlt{
     position: relative;
-    margin-top: 70px;
+    margin-top: 40px;
     height: 400px;
     width: 750px;
     background-color: #333;
-    border-radius: 3px;
+    border-radius: 0px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 0 10px #111;
+    border-bottom: 1px solid #D32F2F;
 }
 
 
@@ -304,7 +305,7 @@ a{
 
 .education{
   /* Proportions */
-  height:   1000px;
+  height:   1fffpx;
   width:    100%;
 
   /* Position */
@@ -395,7 +396,7 @@ a{
 }
 
 .contactButton:hover{
-    box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #111;
 }
 
 .contactButtonA{
@@ -412,7 +413,7 @@ a{
 }
 
 .contactButtonA:hover{
-    box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #111;
 }
 
 .contactButtonB{
@@ -429,7 +430,7 @@ a{
 }
 
 .contactButtonB:hover{
-    box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #111;
 }
 
 .footer{
