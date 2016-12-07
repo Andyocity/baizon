@@ -50,7 +50,7 @@ a{
 .mainTitle{
   /* Proportions */
   /* Position */
-  margin-top:   15px;
+  margin-top:   65px;
   margin-left:  auto;
   margin-right: auto;
   display:      inline-block;
@@ -60,7 +60,7 @@ a{
   /* Text */
   font-family: 'Fashion Fetish', serif;
   font-weight: 300;
-  font-size:   50px;
+  font-size:   70px;
   line-height: 70px;
 }
 
@@ -115,7 +115,7 @@ a{
 
   /* Position */
   position: absolute;
-  top:      140px;
+  top:      200px;
   left:     0px;
 
   /* Additional Styling */
@@ -142,7 +142,7 @@ a{
 
   /* Position */
   position: absolute;
-  top:      140px;
+  top:      0px;
   left:     0px;
   /* Additional Styling */
 
@@ -150,28 +150,32 @@ a{
 }
 
 .aboutInner{
-    position:relative;
-    height: 150px;
-    width: 450px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height: 400px;
+    width: 667px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .innerFlair{
-    position: absolute;
-    bottom:40px;
-    right:75px;
+    margin-top: -4;
+    margin-left: auto;
+    margin-right: auto;
     height: 1px;
     width: 150px;
     background-color:#D32F2F;
 }
 
 .featureImage{
-    position:absolute;
-    top:0px;
-    left:0px;
-    height: 150px;
-    width: 150px;
+    position:relative;
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
     background-color: #D32F2F;
     background-image: url('Resources/Profile.jpg');
@@ -180,10 +184,8 @@ a{
 }
 
 .aboutTitle{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
     height: 150px;
     width: 300px;
     display: inline-block;
@@ -197,10 +199,11 @@ a{
 
 .aboutText{
     width: 80%;
-    height:300px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 440px;
+    display: block;
     font-family: 'Assistant', sans-serif;
     font-weight: 200;
 }
