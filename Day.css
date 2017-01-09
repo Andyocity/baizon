@@ -1,14 +1,5 @@
 /* Day Stylesheet - Andy Baizon 2016 */
 
-
-/*Fonts*/
-@font-face {
-    font-family: 'Fashion Fetish';
-    src: url('Resources/Fashion Fetish Light.ttf');
-}
-
-
-
 body{
   /*Proportions */
   height: 100%;
@@ -17,14 +8,15 @@ body{
   margin:0;
 
   /* Additional Styling */
-  background-color: #FFFFFF;
+  background-color: #FFF;
   overflow-x:       hidden;
   overflow-y:       auto;
   padding-top:      0px;
   padding: 0;
 
   /* Text */
-  font-family:'Roboto',sans-serif;
+  color: #000;
+  font-family: 'Fashion Fetish', serif;
   font-weight: 300;
   font-size:   20px;
 }
@@ -33,22 +25,6 @@ a{
   text-decoration: none;
   color:           inherit;
 }
-
-/* SCROLL BARS */
-body::-webkit-scrollbar-track{
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
-}
-
-body::-webkit-scrollbar{
-  width: 9px;
-	background-color: #F5F5F5;
-}
-
-body::-webkit-scrollbar-thumb{
-	background-color: #888888;
-}
-
 
 /* MAIN SITE CONTENT BELOW */
 .siteBanner{
@@ -65,21 +41,20 @@ body::-webkit-scrollbar-thumb{
   /* Additional Styling */
   border-bottom:       1px;
   border-bottom-style: solid;
-  border-bottom-color: #EEEEEE;
-  background-color:    #FFFFFF;
+  border-bottom-color: rgba(68, 138, 255, 1)/*#448AFF*/;
+  background-color:    #FFF;
 
   /* Text */
   text-align: center;
-  color:      #000000;
+  color:      #000;
 }
 
 .mainTitle{
   /* Proportions */
-
   /* Position */
   margin-top:   15px;
-  margin-left:  200px;
-  margin-right: 200px;
+  margin-left:  auto;
+  margin-right: auto;
   display:      inline-block;
 
   /* Additional Styling */
@@ -89,7 +64,34 @@ body::-webkit-scrollbar-thumb{
   font-weight: 300;
   font-size:   50px;
   line-height: 70px;
+  z-index: 999;
 }
+
+.themeSwitcher{
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+.themeButtonR{
+    height: 30px;
+    width: 130px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Fashion Fetish SmallCaps';
+    color: #000;
+    border: 1px solid #000;
+    line-height: 33px;
+    user-select: none;
+}
+
+.themeButtonB{display: none;}
+
 
 .underBanner{
   /* Proportions */
@@ -103,18 +105,20 @@ body::-webkit-scrollbar-thumb{
   z-index:  0;
 
   /* Additional Styling */
-  background-color: #FFFFFF;
-  box-shadow:       0 0 10px #999999;
+  background-color: #FFF;
+  box-shadow:       0 0 10px #777;
 
   /* Text */
   text-align: center;
 }
 
+#Blue{display:none;}
+
 .underBannerItem{
   /* Proportions */
 
   /* Position */
-  margin-top:   0px;
+  margin-top:   3px;
   margin-left:  50px;
   margin-right: 50px;
   display:      inline-block;
@@ -122,7 +126,7 @@ body::-webkit-scrollbar-thumb{
   /* Additional Styling */
   transition: all .5s ease-in-out;
   /* Text */
-  font-family: 'Fashion Fetish', serif;
+  font-family: 'Fashion Fetish SmallCaps', serif;
   font-weight: 300;
   font-size:   17px;
   line-height: 40px;
@@ -130,10 +134,9 @@ body::-webkit-scrollbar-thumb{
 
 .underBannerItem:hover{
   transform: scale(1.3);
-
 }
-/* CON
-TENT CONTAINER */
+
+/* CONTENT CONTAINER */
 .mainContent{
   /* Proportions */
   height: 1500px;
@@ -161,7 +164,6 @@ TENT CONTAINER */
 
 
 /* ABOUT SECTION*/
-
 .about{
   /* Proportions */
   height:   500px;
@@ -169,28 +171,166 @@ TENT CONTAINER */
 
   /* Position */
   position: absolute;
-  top:      70px;
+  top:      140px;
   left:     0px;
-
   /* Additional Styling */
 
   /* Text */
+}
+
+.aboutInner{
+    position:relative;
+    height: 150px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.innerFlair{
+    position: absolute;
+    bottom:40px;
+    right:75px;
+    height: 1px;
+    width: 150px;
+    background-color:#448AFF;
+}
+
+.featureImage{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #448AFF;
+    background-image: url('Resources/Profile.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+.aboutTitle{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-left: 0px;
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    line-height: 50px;
+    /* Text */
+    font-family: 'Fashion Fetish', serif;
+    font-weight: 300;
+    font-size:   30px;
+    line-height: 150px;
+}
+
+.aboutText{
+    width: 80%;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
 }
 
 .projects{
   /* Proportions */
-  height:   500px;
-  width:    100%;
+  height:   570px;
+  width:    1200px;
 
   /* Position */
-  position: absolute;
-  top:      640px;
-  left:     0px;
+  position: relative;
+  margin-top: 650px;
+  margin-left: auto;
+  margin-right: auto;
 
   /* Additional Styling */
-
+  padding-top: 1px;
   /* Text */
 }
+
+
+.projectsTitle{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+
+    /* Text */
+    font-family: 'Fashion Fetish', serif;
+    font-weight: 300;
+    font-size:   30px;
+    line-height: 70px;
+}
+
+
+.projectItem{
+    position: relative;
+    margin-top: 140px;
+    height: 400px;
+    width: 800px;
+    background-color: #333;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px #777;
+}
+
+.projectItemAlt{
+    position: relative;
+    margin-top: 70px;
+    height: 400px;
+    width: 800px;
+    background-color: #333;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px #777;
+}
+
+
+.projectItemTitle{
+    padding-top: 20px;
+    font-family: 'Fashion Fetish', serif;
+    font-size: 24px;
+}
+
+.projectFlair{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height:1px;
+    width:100px;
+    background-color: #448AFF;
+}
+
+.projectItemImage{
+    position: absolute;
+    bottom:20px;
+    left:20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 2px;
+    background-color: #448AFF;
+    background-image: url('Resources/AB.png');
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+.projectItemBrief{
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    width: 440px;
+    height: 300px;
+    display: inline-block;
+    line-height: 25px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+}
+
 
 /* EDUCATION SECTION */
 
@@ -206,6 +346,7 @@ TENT CONTAINER */
 
   /* Additional Styling */
   /* Text */
+  display: none;
 }
 
 .educationItem{
@@ -229,6 +370,17 @@ TENT CONTAINER */
   /* Text */
 }
 
+.educationTitle{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    /* Text */
+    font-family: 'Fashion Fetish', serif;
+    font-weight: 300;
+    font-size:   30px;
+    line-height: 70px;
+}
 
 /* CONTACT SECTION*/
 .contact{
@@ -246,9 +398,75 @@ TENT CONTAINER */
   /* Text */
 }
 
+.sectionTitleFlair{
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    width: 100px;
+    background-color:#448AFF;
+}
+
+.buttonArea{
+    margin-top: 20px;
+    height: 50px;
+    width: 85px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contactButton{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #448AFF;
+    border-radius: 3px;
+    line-height: 55px;
+    box-shadow: 0 0 10px #777;
+}
+
+.contactButton:hover{
+    box-shadow: 0 0 20px #777;
+}
+
+.contactButtonA{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #448AFF;
+    border-radius: 3px;
+    line-height: 55px;
+    box-shadow: 0 0 10px #777;
+    background-image: url('Resources/Twitter Buttons/TR_Button_Blue.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.contactButtonA:hover{
+    box-shadow: 0 0 20px #777;
+}
+
+.contactButtonB{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #448AFF;
+    border-radius: 3px;
+    line-height: 55px;
+    box-shadow: 0 0 10px #777;
+    background-image: url('Resources/Instagram Buttons/IG_Button_Blue.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.contactButtonB:hover{
+    box-shadow: 0 0 20px #777;
+}
+
 .footer{
   /* Proportions */
-  height:   220px;
+  height:   140px;
   width:    100%;
 
   /* Position */
@@ -259,28 +477,28 @@ TENT CONTAINER */
   /* Additional Styling */
   border-top:       1px;
   border-top-style: solid;
-  border-top-color: #EEEEEE;
-  background-color: #FFFFFF;
+  border-top-color: rgba(68, 138, 255, 1);
+  background-color: #FFF;
 
   /* Text */
   text-align:  center;
-  color:       #999999;
-	overflow:hidden;
+  color:       #555;
+  overflow:    hidden;
 }
 
 .footerText{
   /* Text */
   font-family: 'Fashion Fetish', serif;
   line-height: 140px;
-  color:       #999999;
+  color:       #444;
 }
 
 .net{
   /* Position */
   position: absolute;
   right:    5px;
-  bottom:   50px;
-
+  bottom:   10px;
+  color: #444;
   /* Text */
   font-size: 20px;
 }
@@ -292,6 +510,7 @@ TENT CONTAINER */
   top: 140px;
   left:0px;
   background-color: #1da1f2;
+  display: none;
 }
 
 .gitBanner{
@@ -301,6 +520,7 @@ TENT CONTAINER */
   top: 180px;
   left:0px;
   background-color: #333333;
+  display: none;
 }
 /*End Footer*/
 
@@ -313,7 +533,8 @@ TENT CONTAINER */
   /* Position */
   position: fixed;
   bottom:   50px;
-  left:     50px;
+  left:     30px;
+  opacity: 0.8;
 
   /* Additional Styling */
   display: none;
