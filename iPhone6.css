@@ -8,10 +8,10 @@ a{text-decoration:none;color:#fff} a:active{text-decoration:none;color:#fff;}
 
 .projects{
     z-index: 10;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: #222;
     position: relative;
-    margin-top: 100px;
+    margin-top: 0px;
     width: 100%;
     height:500px;
     box-shadow: 0 0 10px #000;
@@ -30,8 +30,8 @@ a{text-decoration:none;color:#fff} a:active{text-decoration:none;color:#fff;}
 
 .inner2{
     background-color: #fff;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
     position: absolute;
     top:150px;
     left:0px;
