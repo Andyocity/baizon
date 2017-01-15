@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://baizon.uk">
   <meta name="author" content="Andy Baizon">
   <meta name="keywords" content="baizon, Andy Baizon, portfolio, baizon uk">
-  <meta name="description" content="Portfolio Site for one Andy Baizon">
+  <meta name="description" content="portfolio site for andy baizon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--CSS-->
@@ -37,6 +37,16 @@
       $(document).ready(function(){
           $('.projects').hide();
       });
+
+      function openContact(){
+        $('.buttons').fadeOut('fast');
+        $('.contact').fadeIn('slow');
+      };
+
+      function closeContact(){
+        $('.contact').fadeOut('slow');
+        $('.buttons').fadeIn('slow');
+      };
   </script>
 
   <!--Favicon-->
@@ -55,7 +65,7 @@
 
             <div class="buttons">
                 <div class="button"><a onclick="openProjects()">projects</a></div>
-                <div class="button"><a href="https://twitter.com/andyocity" target="_blank">twitter</a></div>
+                <div class="button"><a onclick="openContact()">contact</a></div>
                 <div class="button"><a href="https://instagr.am/andyocity" target="_blank">instagram</a></div>
             </div>
 
@@ -66,6 +76,10 @@
             <div class="inner2"><a href="https://liveleague.glos.ac.uk" target="_blank"><div class="image"></div></a></div>
         </div>
 
+        <div class="contact">
+            <div class="close" onclick="closeContact()">x</div>
+            <div class="but"><a href="mailto:andy@baizon.uk">email</div>
+        </div>
     </div>
 </body>
 </html>
