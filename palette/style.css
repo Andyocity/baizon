@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.palette-cont{
+    width: 750px;
+    height:350px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    font-weight: lighter;
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 30px;
+    height:70px;
+    width:200px;
+    border: 2px solid #000;
+    line-height: 70px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.block-text{
+        margin-top: 20px;
+        cursor: default;
+}
+
+.color-block-1{
+    position: absolute;
+    top:0px;
+    left:0px;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    width: 150px;
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+}
+
+.color-block-2{
+    position: absolute;
+    top:0px;
+    left:150px;
+    height: 350px;
+    width: 150px;
+    display: inline-block;
+    background-color: #222222;
+    color: #fff;
+}
+
+.color-block-3{
+    position: absolute;
+    top:0px;
+    left:300px;
+    height: 350px;
+    width: 150px;
+    display: inline-block;
+    background-color: #929292;
+}
+
+.color-block-4{
+    position: absolute;
+    top:0px;
+    left:450px;
+    height: 350px;
+    width: 150px;
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+
+.color-block-5{
+    position: absolute;
+    top:0px;
+    left:600px;
+    height: 350px;
+    width: 150px;
+    display: inline-block;
+    background-color: #FFFF00;
+}
