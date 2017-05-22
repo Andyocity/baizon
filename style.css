@@ -158,6 +158,8 @@ a:active{
     top:113px;
     left:50px;
     background-color: #000;
+    background: url('Resources/poster.png');
+    background-size: contain;
 }
 
 .slides-icon{
