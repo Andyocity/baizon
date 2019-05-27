@@ -10,7 +10,7 @@ body{
 }
 
 .global-container{
-  min-width: 1920px;
+  min-width: 2560px;
   max-width: 2560px;
   height: 1080px;
   background-color: hotpink;
@@ -34,11 +34,13 @@ body{
 
  .image-space{
    background-image: url('./assets/images/IG_Buildings_Toronto.jpg');
+   background-repeat: no-repeat;
+   background-position: center right;
    height: 100%;
  }
 
 .logo-portion{
-  margin-top: 25%;
+  margin-top: 22%;
   margin-left: auto;
   margin-right: auto; 
   text-align: center;

@@ -1,18 +1,24 @@
 body{
   background-color: #ffffff;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none; 
   -moz-user-select: none; 
   -ms-user-select: none; 
   user-select: none; 
+  width: 414px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .global-container{
-  min-width: 1920px;
-  max-width: 2560px;
-  height: 1080px;
+  width: 414px;
+  height: 896px;
   background-color: hotpink;
   position: absolute;
   top: 0px;
@@ -20,6 +26,7 @@ body{
   margin: 0;
   padding: 0;
 }
+
  .white-space{
   position: absolute;
   top: 0px;
@@ -27,34 +34,40 @@ body{
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  height: 100%;
-  width: 65%;
-  z-index: 999;
+  height: 896px;
+  width: 414px;
+  z-index: 998;
  }
 
  .image-space{
    background-image: url('./assets/images/IG_Buildings_Toronto.jpg');
-   height: 100%;
+   background-position: center center;
+   position: absolute;
+   bottom: 0px;
+   height:200px;
+   width: 414px;
+   z-index: 999;
  }
 
 .logo-portion{
-  margin-top: 25%;
-  margin-left: auto;
-  margin-right: auto; 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 414px;
+  margin-top: 0%;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   font-family: 'Moon';
   /*font-family: 'Fashion Fetish Smallcaps';*/
 }
 
 .nav-portion{
   /*background-color: orange;*/
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto; 
-  text-align: center;
-  align-content: center;
-  width: 700px;
+  margin-top: 150px;
+  width: 414px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 /*Buttons*/
