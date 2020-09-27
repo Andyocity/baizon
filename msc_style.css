@@ -45,25 +45,18 @@ html{
     user-select: none;
 }
 
-.pre-footer{
-    position: absolute;
-    top:2650px;
-    left:0px;
-    height: 300px;
-    width: 100%;
-    background-color: #0b0b0b;
-    color: #ffffff;
-}
+
 
 .footer{
     position: absolute;
-    top:2950px;
+    top:3050px;
     left:0px;
     height: 600px;
     width: 100%;
     background-color: #1b1b1b;
     color: #ffffff;
 }
+
 .section-header{
     font-weight: 700;
     font-size: 24px;
@@ -177,4 +170,42 @@ a, a:visited, a:active{
     margin-top: 50px;
     display: block;
     background-color: transparent;
+}
+
+
+.pre-footer{
+    position: absolute;
+    top:2650px;
+    left:0px;
+    height: 400px;
+    width: 100%;
+    background-color: #0b0b0b;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+}
+
+#IG_1{
+    background-image: url(./assets/images/IG_Aesthetic_Eye.png);
+}
+
+#IG_2{
+    background-image: url(./assets/images/IG_Buildings_Birmingham.png);
+}
+
+#IG_3{
+    background-image: url(./assets/images/IG_Woman_Hair.png);
+}
+
+#IG_4{
+    background-image: url(./assets/images/IG_Buildings_Toronto.jpg);
+}
+
+.IG-Image{
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
