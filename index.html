@@ -23,9 +23,19 @@
             <div class="nav-2-item">About</div>
             <div class="nav-2-item">Social</div>
             <div class="nav-2-item">Projects</div>
-            <div class="nav-2-item">Contact</div>
+            <div class="nav-2-item">Blog</div>
         </div>
         <div id="underline">Andy Baizon</div>
+    </div>
+
+    <div class="fixed-header">
+        <div class="nav-3">
+            <div class="nav-3-item">About</div>
+            <div class="nav-3-item">Social</div>
+            <div class="nav-3-item">Projects</div>
+            <div class="nav-3-item">Blog</div>
+        </div>
+        <div id="underline-2">Andy Baizon</div>
     </div>
 
     <div class="content">
@@ -33,6 +43,38 @@
             <div class="section-header">About</div>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div id="Projects">
+            <div class="section-header">Projects</div>
+            <ul><h3>shadowCoffee</h3></ul>
+            <ul>a website dedicated to a bad joke</ul>
+            <div class="project-img"></div>
+            <ul><h3>powershell</h3></ul>
+            <ul>
+                <p>after seeing how deep the rabbit hole goes, powershell became my all-time favourite language<br>
+                this has lead me to create little functions/doodads to help me overcome things, or just improve my day to day QOL.
+                </p>
+            </ul>
+            <ul>
+                <a href="https://www.powershellgallery.com/packages/GetDirectory/3.3">PowerShell Gallery: GetDirectory</a>
+            </ul>
+            <div class="code-block">
+                math::floor(((new-timespan $start 06/05/2019 $end (get-date -format dd/MM/yyyy) | select-object -expandproperty days)/10))
+            </div>
+            <ul><h3>github things</h3></ul>
+            <ul><p>happily, one of my <a href="https://github.com/dark-coffee/Get-ServiceState" style="color: blue;">tiniest powershell utils</a> is imortalised in the artic code vault.<br>
+            I don't know if it will actually be useful to anyone, but hey, isn't that cool?!</p></ul>
+            <ul>you can visit my github here:</ul>
+                <div class="social-element">
+                        <div class="social-button">
+                            <p>
+                                <a href="https://github.com/dark-coffee" class="button" style="background-color: #0f0f0f;"><div class="button" style="background-color: #0f0f0f;">dark-coffee</div></a>
+                            </p>
+                        </div>
+                </div>
+                <ul>
+                    <a href="#">Github: RemoteLocalUserManager</a>
+                </ul>
         </div>
         <div id="Social">
             <div class="section-header">Social</div>
@@ -108,33 +150,7 @@
 
             </div>
         </div>
-        <div id="Projects">
-            <div class="section-header">Projects</div>
-            <ul><h3>shadowCoffee</h3></ul>
-            <ul>a website dedicated to a bad joke</ul>
-            <div class="project-img"></div>
-            <ul><h3>powershell</h3></ul>
-            <ul>
-                <p>after seeing how deep the rabbit hole goes, powershell became my all-time favourite language<br>
-                this has lead me to create little functions/doodads to help me overcome things, or just improve my day to day QOL.
-                </p>
-            </ul>
-            <div class="code-block">
-                math::floor(((new-timespan $start 06/05/2019 $end (get-date -format dd/MM/yyyy) | select-object -expandproperty days)/10))
-            </div>
-            <ul><h3>github things</h3></ul>
-            <ul><p>happily, one of my <a href="https://github.com/dark-coffee/Get-ServiceState" style="color: blue;">tiniest powershell utils</a> is imortalised in the artic code vault.<br>
-            I don't know if it will actually be useful to anyone, but hey, isn't that cool?!</p></ul>
-            <ul>you can visit my github here:</ul>
-                <div class="social-element">
-                        <div class="social-button">
-                            <p>
-                                <a href="https://github.com/dark-coffee" class="button" style="background-color: #0f0f0f;"><div class="button" style="background-color: #0f0f0f;">dark-coffee</div></a>
-                            </p>
-                        </div>
-                </div>
-                
-        </div>
+        
 
     </div>
 

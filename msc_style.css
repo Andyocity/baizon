@@ -34,14 +34,16 @@ html{
 }
 
 .content{
-    position: absolute;
-    top:650px;
-    left:300px;
     height: 2000px;
-    /*padding-top: 75px;*/
+    width:70%;
+    margin-top: 700px;
+    margin-left:auto;
+    margin-right:auto;
+    /*padding-top: 75px;
     padding-top: 25px;
-    padding-left: 75px;
+    padding-left: 300px;
     padding-right: 300px;
+    */
     user-select: none;
 }
 
@@ -74,6 +76,7 @@ html{
 }
 
 .button{
+    /*old blue #007BFF*/
     background-color: #007BFF;
     color: #ffffff;
     border-radius: 3px;
@@ -100,12 +103,14 @@ a, a:visited, a:active{
     position: absolute;
     bottom:50px;
     left:50px;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    /*background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);*/
+    background-image: linear-gradient(120deg, #AC752A 0%, #AE915D 90%);
     background-repeat: no-repeat;
     background-size: 100% 0.35em;
     background-position: 0 88%;
     width: 490px;
     text-align: center;
+    opacity: 100%;
   }
 
 
@@ -209,3 +214,70 @@ a, a:visited, a:active{
     margin-right: auto;
     margin-top: 100px;
 }
+
+
+
+/*---------------------------------------------------------*/
+
+
+/*Fixed Header*/
+
+.fixed-header{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 50px;
+    background-image: url(./assets/images/water.jpg);
+    background-size: cover;
+    background-position: bottom center;
+
+    visibility: hidden;
+}
+
+
+.nav-3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 70px;
+    width: 45%;
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+.nav-3-item{
+    font-size: 20px;
+    line-height: 70px;
+    width: 300px;
+    transition: 0.4s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-3-item:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#underline-2{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(120deg, #AC752A 0%, #AE915D 90%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.35em;
+    background-position: 0 88%;
+    width: 325px;
+    text-align: center;
+    opacity: 100%;
+    z-index: 1;
+  }
+/*---------------------------------------------------------*/
