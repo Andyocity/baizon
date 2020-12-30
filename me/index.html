@@ -5,16 +5,54 @@
     <style>
         body{
             background-color: #0b0b0b;
-            line-height: 95vh;
             text-align: center;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-weight: lighter;
-            font-size: 100px;
             color: #ffffff;
+        }
+
+        .link-section{
+            margin-top: 40vh;
+        }
+
+        .link{
+            width: 80%;
+            height: 70px;
+            border: 5px solid #ffffff;
+            line-height: 70px;
+            font-size: 30px;
+            letter-spacing: 3px;
+
+            margin-top: 50px;
+            margin-right: auto;
+            margin-bottom: 50px;
+            margin-left: auto;
+
+            /*animate*/
+            -webkit-transition: background 2s;
+            transition: background 2s;
+            -webkit-transition: color 1s;
+            transition: color 1s;
+        }
+
+        .link:hover{
+            background-color: #ffffff;
+            color: #0b0b0b;
+
+            /*animate*/
+            -webkit-transition: background 2s;
+            transition: background 2s;
+            -webkit-transition: color 1s;
+            transition: color 1s;
         }
     </style>
 </head>
 <body>
-    in progress
+
+    <div class="link-section">
+        <div class="link">instagram</div>
+        <div class="link">gyrosocope</div>
+    </div>
+
 </body>
 </html>
