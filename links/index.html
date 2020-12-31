@@ -13,8 +13,22 @@
             color: #ffffff;
         }
 
+        /* Mobile Adjustment */
+        @media only screen and (width: 414px) {
+           :root{
+                --topmargin: 20vh;
+           } 
+        }
+
+         /* Desktop Adjustment */
+         @media only screen and (min-width: 600px) {
+            :root{
+                --topmargin: 20vh;
+           }
+        }
+
         .link-section{
-            margin-top: 40vh;
+            margin-top: var(--topmargin);
         }
 
         .link{
