@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
+
+    <!--page title-->
     <title>baizon | links</title>
 
+    <!--css-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         html{
@@ -29,8 +32,14 @@
          /* Desktop Adjustment */
          @media only screen and (min-width: 1025px) {
             :root{
-                --topmargin: 25vh;
+                --topmargin: 10vh;
            }
+        }
+
+        .heading{
+            margin-top: 50px;
+            font-size: 50px;
+            letter-spacing: 5px;
         }
 
         .link-section{
@@ -49,8 +58,6 @@
             margin-right: auto;
             margin-bottom: 50px;
             margin-left: auto;
-
-            user-select: none;
 
             /*cursor*/
             cursor: pointer;
@@ -76,18 +83,32 @@
 </head>
 <body>
 
+    <!--main body links-->
+    <div class="heading">andy baizon</div>
+
+    <!--main links-->
     <div class="link-section">
         <div class="link" onclick="instagram()">instagram</div>
         <div class="link" onclick="gyroscope()">gyroscope</div>
         <div class="link" onclick="github()">github</div>
         <div class="link" onclick="linkedin()">linkedin</div>
+        <div class="link" onclick="twitter()">twitter</div>
     </div>
 
+    <!--gaming links-->
+    <div class="gaming-link-section">
+
+    </div>
+
+    <!--document script-->
     <script>
         function instagram(){window.open("https://instagr.am/andybaizon");};
         function gyroscope(){window.open("https://health.baizon.uk");};
         function github(){window.open("https://github.com/dark-coffee");};
         function linkedin(){window.open("https://www.linkedin.com/in/baizon/");};
+        function twitter(){window.open("https://www.twitter.com/w98aas/");};
+        function steam(){window.open("");};
+        function xbox(){window.open("");};
     </script>
 </body>
 </html>
