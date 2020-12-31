@@ -26,6 +26,7 @@
         @media only screen and (width: 414px) {
            :root{
                 --topmargin: 10vh;
+                --linkmargin: 30px;
            } 
         }
 
@@ -33,6 +34,7 @@
          @media only screen and (min-width: 1025px) {
             :root{
                 --topmargin: 10vh;
+                --linkmargin: 50px;
            }
         }
 
@@ -54,9 +56,9 @@
             font-size: 30px;
             letter-spacing: 3px;
 
-            margin-top: 50px;
+            margin-top: var(--linkmargin);
             margin-right: auto;
-            margin-bottom: 50px;
+            margin-bottom: var(--linkmargin);
             margin-left: auto;
 
             /*cursor*/
